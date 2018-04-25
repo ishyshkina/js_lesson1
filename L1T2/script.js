@@ -1,0 +1,8 @@
+var n = 18;
+
+var prime = true;
+for (var i = 2; i <= n/2; i++) {
+	if (n % i == 0) { prime = false};
+};
+
+   console.log(prime);
