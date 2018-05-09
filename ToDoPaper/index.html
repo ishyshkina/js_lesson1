@@ -3,13 +3,27 @@
 <head>
 	<title>Julias homework</title>
 </head>
-<body>
+<body style="margin-top:40px;">
+	<button onclick="viewTodoList('All');">ShowAll</button>
+	<button onclick="viewTodoList('completed');">ShowCompleted</button>
+	<button onclick="viewTodoList('not_completed');">ShowInCompleted</button>
+	<p>
+		<b>Add new ToDo Item to the DOM:</b>
+	</p>
+	<input id="name_1" type="text" size="20" placeholder="text"/>
+	<input id="name_2" type="number" size="5" placeholder="id"/>
+	<input id= "name_3" type="checkbox">Completed</input><br/>
+	<br/>
+	<button id="add" onclick="addTodoItemFromDom();" style="background:green">Add</button>
+	<button id="edit" onclick=";" style="background:yellow">Edit</button>
+	<button id="del" onclick="deleteTodoItemDom();" style="background:red">Delete</button>
+	<br/>
 
+	<ul id="todo-items"></ul> 
 </body>
 <script src="todos.json"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="dom.js"></script>
 <script src="function.js"></script>
 <script src="script.js"></script>
-
-
 </html>

@@ -17,15 +17,15 @@ var todoItems = [];
  addTodoItem(obj6);
  addTodoItem(obj7);
 
- viewTodoList("completed");
- viewTodoList("not_completed");
- viewTodoList("All");
+ // viewTodoList("completed");
+ // viewTodoList("not_completed");
+ // viewTodoList("All");
 
- editTodoItem(1, "new1_edited");
- editTodoItem(5, "new5_edited");
+ // editTodoItem(1, "new1_edited");
+ // editTodoItem(5, "new5_edited");
 
- deleteTodoItem(7);
+ // deleteTodoItem(7);
 
- viewTodoList("completed");
- viewTodoList("not_completed");
- viewTodoList("All");
+ // viewTodoList("completed");
+ // viewTodoList("not_completed");
+ // viewTodoList("All");
